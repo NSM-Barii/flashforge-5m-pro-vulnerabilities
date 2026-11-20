@@ -371,7 +371,9 @@ The `/detail` endpoint returns full device state (firmware version, MAC address,
 |------|-------|
 | 2026-11-19 | Initial discovery of unauthenticated G-code execution |
 | 2026-11-20 | Path traversal, UDP amplification, firmware analysis completed |
-| TBD | Vendor notification |
+| 2026-11-20 | 12 CVE submissions filed via VulnCheck |
+| TBD | CVE IDs assigned |
+| TBD | Vendor notification (via VulnCheck coordination) |
 | TBD | Public disclosure |
 
 ## Tools

@@ -103,6 +103,7 @@ See `firmware/SOURCE.txt` for provenance.
 | Date | Event |
 |------|-------|
 | 2026-11-19 | Initial discovery |
-| 2026-11-20 | All 12 findings documented |
-| TBD | Vendor notification |
+| 2026-11-20 | All 12 findings documented, submitted to VulnCheck |
+| TBD | CVE IDs assigned |
+| TBD | Vendor notification (via VulnCheck coordination) |
 | TBD | Public disclosure |
