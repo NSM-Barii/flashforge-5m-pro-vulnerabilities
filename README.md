@@ -107,3 +107,13 @@ See `firmware/SOURCE.txt` for provenance.
 | TBD | CVE IDs assigned |
 | TBD | Vendor notification (via VulnCheck coordination) |
 | TBD | Public disclosure |
+
+---
+
+## Disclaimer
+
+This research is published for **educational and authorized security research purposes only**. All testing was performed on hardware owned by the researcher. Vulnerabilities were disclosed responsibly through VulnCheck's CVE Numbering Authority (CNA) program with coordinated vendor notification.
+
+Do not use these tools or techniques against devices you do not own or have explicit written authorization to test. Unauthorized access to computer systems is illegal under the Computer Fraud and Abuse Act (CFAA) and equivalent laws worldwide.
+
+The author assumes no liability for misuse of the information or tools provided in this repository.
