@@ -1,0 +1,12 @@
+src/venv
+src/__pycache__
+src/test.py
+database/
+cracking/
+init/
+keys/
+
+# FOR CORDINATION
+vulncheck_submissions.md
+cve_tracker.md
+src/vulncheck.txt

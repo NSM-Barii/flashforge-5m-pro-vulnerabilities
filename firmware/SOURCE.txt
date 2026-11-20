@@ -1,0 +1,36 @@
+Flashforge Adventurer 5M Pro Firmware v5.1.7-2.2.3
+===================================================
+
+Downloaded: 2026-11-19
+Source URL: https://flashforge-resource.oss-us-east-1.aliyuncs.com/AD5MP%E5%9B%BA%E4%BB%B6/Adventurer5MPro-5.1.7-2.2.3-20260605.tgz
+Hosted on: Alibaba Cloud OSS (flashforge-resource.oss-us-east-1.aliyuncs.com)
+Listed at: https://www.flashforge.com/blogs/download-document/adventurer-5m-pro
+Archive size: 68,290,560 bytes (65.1 MB)
+Archive format: POSIX tar archive (GNU), gzip compressed
+Build date: 2026-06-05
+
+No authentication required to download. Publicly accessible.
+
+Files extracted and stored here:
+- firmwareExe        — Main printer server binary (9.5MB, ARM ELF, not stripped, debug symbols)
+                       Runs as /data/logFiles/firmwareExe on the device
+                       Matches /proc/self/exe (9,564,802 bytes) on live device
+- shadow             — Root password hash, copied to /etc/shadow on every firmware update
+- flashforge_init.sh — Master init script, contains hardcoded WiFi AP password and RSA passphrase
+- inittab            — Init configuration
+- auto_run.sh        — Startup script, handles USB firmware updates (no signature verification)
+- run.sh             — Software update script
+- rcS                — Boot script (/etc/init.d/rcS)
+- client/            — Web interface (HTML/JS/CSS)
+- network/           — Network tools (hostapd, iwlist, wifi_reconnect)
+
+Other firmware versions available at same CDN (not downloaded):
+- v5.2.0-2.2.3 (2026-11-10) — LATEST
+- v5.1.9-2.2.3 (2026-09-11)
+- v5.1.4-2.2.3 (2026-05-15)
+- v3.2.7-2.2.3 (2025-12-17)
+- v3.1.5-2.2.3 (2025-02-12)
+- v3.1.4-2.2.3 (2025-01-16)
+- v2.4.5-2.2.3
+- v2.3.7-2.1.9
+- v2.3.1-2.1.8
